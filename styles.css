@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.team {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(44, 44, 103);
+    margin: 10px 75px auto 75px;
+}
+
+.score {
+    color: rgb(200, 79, 79);
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    padding: 8px 10px 8px 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.scoreCard {
+    background: black;
+    text-align: center;
+    font-size: 38px;
+    border-radius: 5px;
+}
